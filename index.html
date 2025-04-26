@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FusionSpace</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-content">
+        <h1 class="logo"><i class="fas fa-bolt"></i> FusionSpace</h1>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#top">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main id="top">
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenue chez FusionSpace</h2>
+            <p class="slogan">Quality, our priority</p>
+            <p>Votre partenaire pour une communication innovante et impactante.</p>
+        </div>
+    </section>
+
+    <section class="services container" id="services">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i class="fas fa-bullhorn service-icon"></i>
+                <h3>Stratégie de Communication</h3>
+                <p>Élaboration de stratégies efficaces pour vos objectifs de communication.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-pencil-ruler service-icon"></i>
+                <h3>Design Graphique</h3>
+                <p>Création de visuels percutants pour tous vos supports.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-share-alt service-icon"></i>
+                <h3>Réseaux Sociaux</h3>
+                <p>Gestion complète de votre présence en ligne.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2 class="section-title">À propos de FusionSpace</h2>
+                <p><strong>FusionSpace</strong> est une agence de communication dynamique dédiée à la transformation digitale et à la visibilité des marques. Notre mission est d'accompagner nos clients dans l'élaboration de stratégies de communication efficaces, créatives et impactantes.</p>
+                <p>Notre équipe d'experts passionnés combine design, technologie et marketing pour concevoir des solutions sur mesure : branding, communication digitale, gestion de réseaux sociaux et bien plus encore.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Présentation de l'équipe FusionSpace">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2 class="section-title">Contactez-Nous</h2>
+                <p><a href="mailto:fusionspace.info@gmail.com">fusionspace.info@gmail.com</a></p>
+                <p><a href="tel:+212654616762">+212 654 616 762</a> | <a href="tel:+212633126098">+212 633 126 098</a></p>
+
+                <form class="contact-form" action="#">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+            <div class="contact-img">
+                <img src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="Équipe FusionSpace">
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 FusionSpace | Tous droits réservés</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
